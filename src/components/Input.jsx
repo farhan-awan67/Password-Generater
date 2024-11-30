@@ -12,8 +12,8 @@ const Input = ({
   inputRef,
 }) => {
   return (
-    <div className="w-full max-w-md bg-gray-600 rounded-md px-4 py-2 mx-auto mt-6">
-      <div className="flex justify-between gap-6">
+    <div className="w-full max-w-md bg-gray-600 rounded-md p-2 sm:px-4 py-2 mx-auto mt-6">
+      <div className="flex justify-between gap-1.5 sm:gap-6">
         <input
           className="bg-[#d5c0c0fd] outline-none rounded-md px-3 py-1 flex-1"
           type="text"
@@ -29,7 +29,7 @@ const Input = ({
           Copy
         </button>
       </div>
-      <div className="flex justify-between gap-3 mt-2">
+      <div className="flex justify-evenly sm:justify-between flex-wrap gap-2 sm:gap-3 mt-2">
         <div className="flex justify-center">
           <input
             type="range"
